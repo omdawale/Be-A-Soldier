@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Indian_airforce_eligibility">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="253dp"
+        android:layout_height="65dp"
+        android:text="ELIGIBILTY"
+        android:textSize="38dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:text="Age limit:  16.5 to 19 years(inclusive)"
+        android:textSize="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:text=" Education criteria:
+You must have qualified your 10+2 examination with minimum 60% marks in aggregate with Maths AND Physics from an Educational board recognized by Central/ State government.
+
+"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="460dp"
+        android:text="Physical requirement:
+Disable person are not eligible.
+Height: male-157cm
+              Female-155cm"
+   android:textSize="20dp"/>
+    <TextView
+    android:id="@+id/textView1"
+    android:layout_width="253dp"
+    android:layout_height="65dp"
+    android:text="ELIGIBILTY"
+    android:textSize="38dp"
+    android:layout_marginStart="150dp"
+    android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:text="Age limit:  16.5 to 19 years(inclusive)"
+        android:textSize="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:text=" Education criteria:
+You must have qualified your 10+2 examination with minimum 60% marks in aggregate with Maths AND Physics from an Educational board recognized by Central/ State government.
+
+"/>
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="460dp"
+        android:text="Physical requirement:
+Disable person are not eligible.
+Height: male-157cm
+              Female-155cm"
+    android:textSize="20dp"/>
+    <TextView
+    android:id="@+id/textView11"
+    android:layout_width="253dp"
+    android:layout_height="65dp"
+    android:text="ELIGIBILTY"
+    android:textSize="38dp"
+    android:layout_marginStart="150dp"
+    android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:text="Age limit:  16.5 to 19 years(inclusive)"
+        android:textSize="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:text=" Education criteria:
+You must have qualified your 10+2 examination with minimum 60% marks in aggregate with Maths AND Physics from an Educational board recognized by Central/ State government.
+"/>
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="460dp"
+        android:text="Physical requirement:
+Disable person are not eligible.
+Height: male-157cm
+              Female-155cm"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

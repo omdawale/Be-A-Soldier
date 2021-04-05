@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Indian_navy_eliibility">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="253dp"
+        android:layout_height="65dp"
+        android:text="ELIGIBILTY"
+        android:textSize="38dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="392dp"
+        android:layout_height="50dp"
+        android:text="Age Limit: Your age should be in between 16.5 to 19 years."
+        android:textSize="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:text="Education criteria:
+You must passed 12th with Physics, Chemistry and Maths.
+Candidate have to give NDA enrance exam.
+"/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="460dp"
+        android:text="Physical requirement:
+Height-more than 157cms.
+Weight-more than 47kg.
+"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

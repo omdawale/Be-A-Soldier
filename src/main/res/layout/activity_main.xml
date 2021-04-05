@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/user2"
+        android:layout_width="186dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="11dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/user3"
+        android:layout_width="151dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/user"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-47dp"
+        android:layout_marginBottom="687dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/user4"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="678dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="133dp"
+        android:layout_height="35dp"
+        android:layout_alignTop="@+id/user2"
+        android:layout_marginTop="-17dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="46dp"
+        android:text="Log Out" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="176dp"
+        android:layout_height="142dp"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="-9dp"
+        android:text="Indian_army"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="361dp"
+        android:text="Indian_navy"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="157dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginBottom="103dp"
+        android:text="Indian_airforce"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.6"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>

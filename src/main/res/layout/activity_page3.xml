@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page3">
+
+    <Button
+        android:id="@+id/info3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="125dp"
+        android:fontFamily="sans-serif"
+        android:text="INFORMATION"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/eli2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="sans-serif"
+        android:text="ELIGIBILTY"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/book2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="sans-serif"
+        android:text="BOOKS"
+        android:onClick="brow2"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/sy2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="550dp"
+        android:fontFamily="sans-serif"
+        android:text="SYLLABUS"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/pp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="700dp"
+        android:fontFamily="sans-serif"
+        android:text="PASTPAPERS"
+        android:textSize="24sp" />
+
+</RelativeLayout>
